@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1,h2{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.images_list{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}
+.images_list{
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 1000px;
+    height: 300px;
+}
+.rurik_img{
+    width: 450px;
+    height: 300px;
+}
+p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+mark{
+    color: red;
+    background-color: seagreen;
+}
+.test_block{
+    width: 400px;
+    height: 400px;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 30px;
+}
+.image_head{
+    width: 300px;
+    height: 200px;
+}
+span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+header{
+     padding: 15px;
+     position: sticky;
+     top: 0;
+     background-color: aqua;
+     width: 100%;
+}
+.header_list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 1vh;
+    align-items: center;
+}
+main{
+    max-width: 1170px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    text-align: center;
+    border-top: 1px solid black;
+}
+section{
+    background-color: rgb(245, 234, 222);
+}
+.image_box_content{
+     display: flex;
+}
+.image_box_content{
+     width: 1000px;
+     height: 180px;
+     margin: 20px 20px;
+     padding: auto;
+     list-style: none;
+     border: 2px solid violet;
+     border-radius: 10px;
+}
+.images{
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 2px solid violet;
+}
+.first_title-text{
+     color:blueviolet;
+     border: 2px solid aqua;
+     border-radius: 5px;
+     font-size: 16px;
+     font-weight:bold;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.first_title-text::after{
+    content: "<-- Супер мега важная инфа";
+    color: darkorange;
+}
+.first_title-text::before{
+    content: "А ты знал? -->";
+    color: darkorange;
+}
+mark::selection{
+    color: red;
+    background-color: blue;
+}
+p::first-letter{
+    font-size: 30px;
+    color: coral;
+}
+p::first-line{
+    font-size: 20px;
+}
